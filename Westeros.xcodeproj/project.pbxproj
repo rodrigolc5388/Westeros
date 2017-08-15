@@ -24,6 +24,7 @@
 		5B3709491F1AA4A7007E5804 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3709481F1AA4A7007E5804 /* Person.swift */; };
 		5B405B881F2F2219009B9199 /* HousesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B405B861F2F2219009B9199 /* HousesTableViewController.swift */; };
 		5B405B891F2F2219009B9199 /* HousesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B405B871F2F2219009B9199 /* HousesTableViewController.xib */; };
+		5B52690A1F43648400064F03 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5269091F43648400064F03 /* Season.swift */; };
 		5B69DB6D1F3B6404009FFA28 /* ArrayDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69DB6C1F3B6404009FFA28 /* ArrayDelegate.swift */; };
 		5B8DD7BF1F1E4AB700DE738E /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DD7BD1F1E4AB700DE738E /* HouseViewController.swift */; };
 		5B8DD7C01F1E4AB700DE738E /* HouseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8DD7BE1F1E4AB700DE738E /* HouseViewController.xib */; };
@@ -31,6 +32,7 @@
 		5BD0BB8C1F31BEF200184548 /* MembersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0BB8A1F31BEF200184548 /* MembersTableViewController.swift */; };
 		5BD0BB8D1F31BEF200184548 /* MembersTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BD0BB8B1F31BEF200184548 /* MembersTableViewController.xib */; };
 		5BD0BB8F1F3311F000184548 /* ArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0BB8E1F3311F000184548 /* ArrayDataSource.swift */; };
+		5BDE754A1F4367D400B09B8D /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDE75491F4367D400B09B8D /* Episode.swift */; };
 		5BEAE9331F21184B006E6A5D /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAE9321F21184B006E6A5D /* UIKitExtensions.swift */; };
 		5BFED7C61F2152E20060B999 /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFED7C51F2152E20060B999 /* RepositoryTests.swift */; };
 		5BFED7C81F21553E0060B999 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFED7C71F21553E0060B999 /* Repository.swift */; };
@@ -68,6 +70,7 @@
 		5B3709481F1AA4A7007E5804 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5B405B861F2F2219009B9199 /* HousesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousesTableViewController.swift; sourceTree = "<group>"; };
 		5B405B871F2F2219009B9199 /* HousesTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HousesTableViewController.xib; sourceTree = "<group>"; };
+		5B5269091F43648400064F03 /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
 		5B69DB6C1F3B6404009FFA28 /* ArrayDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDelegate.swift; sourceTree = "<group>"; };
 		5B8DD7BD1F1E4AB700DE738E /* HouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
 		5B8DD7BE1F1E4AB700DE738E /* HouseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseViewController.xib; sourceTree = "<group>"; };
@@ -75,6 +78,7 @@
 		5BD0BB8A1F31BEF200184548 /* MembersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembersTableViewController.swift; sourceTree = "<group>"; };
 		5BD0BB8B1F31BEF200184548 /* MembersTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MembersTableViewController.xib; sourceTree = "<group>"; };
 		5BD0BB8E1F3311F000184548 /* ArrayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataSource.swift; sourceTree = "<group>"; };
+		5BDE75491F4367D400B09B8D /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		5BEAE9321F21184B006E6A5D /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		5BFED7C51F2152E20060B999 /* RepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
 		5BFED7C71F21553E0060B999 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
@@ -177,6 +181,8 @@
 				5B37093E1F1A9284007E5804 /* House.swift */,
 				5B3709481F1AA4A7007E5804 /* Person.swift */,
 				5BFED7C71F21553E0060B999 /* Repository.swift */,
+				5B5269091F43648400064F03 /* Season.swift */,
+				5BDE75491F4367D400B09B8D /* Episode.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -326,12 +332,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B30B43C1F38BA0600EA58D5 /* ArrayTableViewController.swift in Sources */,
+				5BDE754A1F4367D400B09B8D /* Episode.swift in Sources */,
 				5BD0BB8F1F3311F000184548 /* ArrayDataSource.swift in Sources */,
 				5B30B4461F38C44700EA58D5 /* Delegates.swift in Sources */,
 				5B405B881F2F2219009B9199 /* HousesTableViewController.swift in Sources */,
 				5B3709491F1AA4A7007E5804 /* Person.swift in Sources */,
 				5B37093F1F1A9284007E5804 /* House.swift in Sources */,
 				5B37091D1F1A4890007E5804 /* AppDelegate.swift in Sources */,
+				5B52690A1F43648400064F03 /* Season.swift in Sources */,
 				5B69DB6D1F3B6404009FFA28 /* ArrayDelegate.swift in Sources */,
 				5B30B43F1F38BC2A00EA58D5 /* DataSource.swift in Sources */,
 				5BD0BB8C1F31BEF200184548 /* MembersTableViewController.swift in Sources */,
