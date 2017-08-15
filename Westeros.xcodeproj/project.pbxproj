@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B0C525B1F2CD5E200877016 /* WikiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0C52591F2CD5E200877016 /* WikiViewController.swift */; };
+		5B0C525C1F2CD5E200877016 /* WikiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B0C525A1F2CD5E200877016 /* WikiViewController.xib */; };
+		5B30B43A1F33187400EA58D5 /* ArrayDataSourceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30B4391F33187400EA58D5 /* ArrayDataSourceTest.swift */; };
+		5B30B43C1F38BA0600EA58D5 /* ArrayTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30B43B1F38BA0600EA58D5 /* ArrayTableViewController.swift */; };
+		5B30B43F1F38BC2A00EA58D5 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30B43E1F38BC2A00EA58D5 /* DataSource.swift */; };
+		5B30B4461F38C44700EA58D5 /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B30B4451F38C44700EA58D5 /* Delegates.swift */; };
+		5B37091D1F1A4890007E5804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B37091C1F1A4890007E5804 /* AppDelegate.swift */; };
+		5B3709241F1A4890007E5804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B3709231F1A4890007E5804 /* Assets.xcassets */; };
+		5B3709271F1A4890007E5804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B3709251F1A4890007E5804 /* LaunchScreen.storyboard */; };
+		5B37093D1F1A8FB8007E5804 /* HouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B37093C1F1A8FB8007E5804 /* HouseTests.swift */; };
+		5B37093F1F1A9284007E5804 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B37093E1F1A9284007E5804 /* House.swift */; };
+		5B3709431F1A9BBD007E5804 /* codeIsComing.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B3709411F1A9BBD007E5804 /* codeIsComing.png */; };
+		5B3709441F1A9BBD007E5804 /* lannister.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B3709421F1A9BBD007E5804 /* lannister.jpg */; };
+		5B3709471F1AA0B7007E5804 /* PersonTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3709461F1AA0B7007E5804 /* PersonTest.swift */; };
+		5B3709491F1AA4A7007E5804 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3709481F1AA4A7007E5804 /* Person.swift */; };
+		5B405B881F2F2219009B9199 /* HousesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B405B861F2F2219009B9199 /* HousesTableViewController.swift */; };
+		5B405B891F2F2219009B9199 /* HousesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B405B871F2F2219009B9199 /* HousesTableViewController.xib */; };
+		5B69DB6D1F3B6404009FFA28 /* ArrayDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69DB6C1F3B6404009FFA28 /* ArrayDelegate.swift */; };
+		5B8DD7BF1F1E4AB700DE738E /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DD7BD1F1E4AB700DE738E /* HouseViewController.swift */; };
+		5B8DD7C01F1E4AB700DE738E /* HouseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8DD7BE1F1E4AB700DE738E /* HouseViewController.xib */; };
+		5BCBF2931F25045900B1172C /* targaryen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BCBF2921F25045900B1172C /* targaryen.jpg */; };
+		5BD0BB8C1F31BEF200184548 /* MembersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0BB8A1F31BEF200184548 /* MembersTableViewController.swift */; };
+		5BD0BB8D1F31BEF200184548 /* MembersTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BD0BB8B1F31BEF200184548 /* MembersTableViewController.xib */; };
+		5BD0BB8F1F3311F000184548 /* ArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD0BB8E1F3311F000184548 /* ArrayDataSource.swift */; };
+		5BEAE9331F21184B006E6A5D /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAE9321F21184B006E6A5D /* UIKitExtensions.swift */; };
+		5BFED7C61F2152E20060B999 /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFED7C51F2152E20060B999 /* RepositoryTests.swift */; };
+		5BFED7C81F21553E0060B999 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFED7C71F21553E0060B999 /* Repository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B37092E1F1A4890007E5804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B3709111F1A4890007E5804 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B3709181F1A4890007E5804;
+			remoteInfo = Westeros;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B0C52591F2CD5E200877016 /* WikiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WikiViewController.swift; sourceTree = "<group>"; };
+		5B0C525A1F2CD5E200877016 /* WikiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikiViewController.xib; sourceTree = "<group>"; };
+		5B30B4391F33187400EA58D5 /* ArrayDataSourceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataSourceTest.swift; sourceTree = "<group>"; };
+		5B30B43B1F38BA0600EA58D5 /* ArrayTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayTableViewController.swift; sourceTree = "<group>"; };
+		5B30B43E1F38BC2A00EA58D5 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		5B30B4451F38C44700EA58D5 /* Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delegates.swift; sourceTree = "<group>"; };
+		5B3709191F1A4890007E5804 /* Westeros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Westeros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B37091C1F1A4890007E5804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B3709231F1A4890007E5804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B3709261F1A4890007E5804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B3709281F1A4890007E5804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B37092D1F1A4890007E5804 /* WesterosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WesterosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B3709331F1A4890007E5804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B37093C1F1A8FB8007E5804 /* HouseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseTests.swift; sourceTree = "<group>"; };
+		5B37093E1F1A9284007E5804 /* House.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		5B3709411F1A9BBD007E5804 /* codeIsComing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = codeIsComing.png; sourceTree = "<group>"; };
+		5B3709421F1A9BBD007E5804 /* lannister.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lannister.jpg; sourceTree = "<group>"; };
+		5B3709461F1AA0B7007E5804 /* PersonTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTest.swift; sourceTree = "<group>"; };
+		5B3709481F1AA4A7007E5804 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5B405B861F2F2219009B9199 /* HousesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HousesTableViewController.swift; sourceTree = "<group>"; };
+		5B405B871F2F2219009B9199 /* HousesTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HousesTableViewController.xib; sourceTree = "<group>"; };
+		5B69DB6C1F3B6404009FFA28 /* ArrayDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDelegate.swift; sourceTree = "<group>"; };
+		5B8DD7BD1F1E4AB700DE738E /* HouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
+		5B8DD7BE1F1E4AB700DE738E /* HouseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseViewController.xib; sourceTree = "<group>"; };
+		5BCBF2921F25045900B1172C /* targaryen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = targaryen.jpg; sourceTree = "<group>"; };
+		5BD0BB8A1F31BEF200184548 /* MembersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembersTableViewController.swift; sourceTree = "<group>"; };
+		5BD0BB8B1F31BEF200184548 /* MembersTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MembersTableViewController.xib; sourceTree = "<group>"; };
+		5BD0BB8E1F3311F000184548 /* ArrayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataSource.swift; sourceTree = "<group>"; };
+		5BEAE9321F21184B006E6A5D /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		5BFED7C51F2152E20060B999 /* RepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
+		5BFED7C71F21553E0060B999 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B3709161F1A4890007E5804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B37092A1F1A4890007E5804 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B30B43D1F38BB9800EA58D5 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				5B30B4441F38C3FD00EA58D5 /* Delegates */,
+				5B30B4431F38C3C700EA58D5 /* Data Sources */,
+				5BD0BB8E1F3311F000184548 /* ArrayDataSource.swift */,
+				5B30B43B1F38BA0600EA58D5 /* ArrayTableViewController.swift */,
+			);
+			name = Generics;
+			sourceTree = "<group>";
+		};
+		5B30B4431F38C3C700EA58D5 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5B30B43E1F38BC2A00EA58D5 /* DataSource.swift */,
+			);
+			name = "Data Sources";
+			sourceTree = "<group>";
+		};
+		5B30B4441F38C3FD00EA58D5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				5B30B4451F38C44700EA58D5 /* Delegates.swift */,
+				5B69DB6C1F3B6404009FFA28 /* ArrayDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		5B3709101F1A4890007E5804 = {
+			isa = PBXGroup;
+			children = (
+				5BEAE9311F21183C006E6A5D /* Cocoa */,
+				5B37091B1F1A4890007E5804 /* Westeros */,
+				5B3709301F1A4890007E5804 /* WesterosTests */,
+				5B37091A1F1A4890007E5804 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B37091A1F1A4890007E5804 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B3709191F1A4890007E5804 /* Westeros.app */,
+				5B37092D1F1A4890007E5804 /* WesterosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B37091B1F1A4890007E5804 /* Westeros */ = {
+			isa = PBXGroup;
+			children = (
+				5B3709451F1A9BC4007E5804 /* Resources */,
+				5B8DD7C11F1E4AC000DE738E /* Controllers */,
+				5B3709401F1A9290007E5804 /* Models */,
+				5B37091C1F1A4890007E5804 /* AppDelegate.swift */,
+				5B3709231F1A4890007E5804 /* Assets.xcassets */,
+				5B3709251F1A4890007E5804 /* LaunchScreen.storyboard */,
+				5B3709281F1A4890007E5804 /* Info.plist */,
+			);
+			path = Westeros;
+			sourceTree = "<group>";
+		};
+		5B3709301F1A4890007E5804 /* WesterosTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B3709331F1A4890007E5804 /* Info.plist */,
+				5B37093C1F1A8FB8007E5804 /* HouseTests.swift */,
+				5B3709461F1AA0B7007E5804 /* PersonTest.swift */,
+				5BFED7C51F2152E20060B999 /* RepositoryTests.swift */,
+				5B30B4391F33187400EA58D5 /* ArrayDataSourceTest.swift */,
+			);
+			path = WesterosTests;
+			sourceTree = "<group>";
+		};
+		5B3709401F1A9290007E5804 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5B37093E1F1A9284007E5804 /* House.swift */,
+				5B3709481F1AA4A7007E5804 /* Person.swift */,
+				5BFED7C71F21553E0060B999 /* Repository.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5B3709451F1A9BC4007E5804 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BCBF2921F25045900B1172C /* targaryen.jpg */,
+				5B3709411F1A9BBD007E5804 /* codeIsComing.png */,
+				5B3709421F1A9BBD007E5804 /* lannister.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5B8DD7C11F1E4AC000DE738E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B30B43D1F38BB9800EA58D5 /* Generics */,
+				5B8DD7BD1F1E4AB700DE738E /* HouseViewController.swift */,
+				5B8DD7BE1F1E4AB700DE738E /* HouseViewController.xib */,
+				5B0C52591F2CD5E200877016 /* WikiViewController.swift */,
+				5B0C525A1F2CD5E200877016 /* WikiViewController.xib */,
+				5B405B861F2F2219009B9199 /* HousesTableViewController.swift */,
+				5B405B871F2F2219009B9199 /* HousesTableViewController.xib */,
+				5BD0BB8A1F31BEF200184548 /* MembersTableViewController.swift */,
+				5BD0BB8B1F31BEF200184548 /* MembersTableViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		5BEAE9311F21183C006E6A5D /* Cocoa */ = {
+			isa = PBXGroup;
+			children = (
+				5BEAE9321F21184B006E6A5D /* UIKitExtensions.swift */,
+			);
+			name = Cocoa;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B3709181F1A4890007E5804 /* Westeros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3709361F1A4890007E5804 /* Build configuration list for PBXNativeTarget "Westeros" */;
+			buildPhases = (
+				5B3709151F1A4890007E5804 /* Sources */,
+				5B3709161F1A4890007E5804 /* Frameworks */,
+				5B3709171F1A4890007E5804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Westeros;
+			productName = Westeros;
+			productReference = 5B3709191F1A4890007E5804 /* Westeros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B37092C1F1A4890007E5804 /* WesterosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B3709391F1A4890007E5804 /* Build configuration list for PBXNativeTarget "WesterosTests" */;
+			buildPhases = (
+				5B3709291F1A4890007E5804 /* Sources */,
+				5B37092A1F1A4890007E5804 /* Frameworks */,
+				5B37092B1F1A4890007E5804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B37092F1F1A4890007E5804 /* PBXTargetDependency */,
+			);
+			name = WesterosTests;
+			productName = WesterosTests;
+			productReference = 5B37092D1F1A4890007E5804 /* WesterosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B3709111F1A4890007E5804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rodrigo Limpias Cossío";
+				TargetAttributes = {
+					5B3709181F1A4890007E5804 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5B37092C1F1A4890007E5804 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B3709181F1A4890007E5804;
+					};
+				};
+			};
+			buildConfigurationList = 5B3709141F1A4890007E5804 /* Build configuration list for PBXProject "Westeros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B3709101F1A4890007E5804;
+			productRefGroup = 5B37091A1F1A4890007E5804 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B3709181F1A4890007E5804 /* Westeros */,
+				5B37092C1F1A4890007E5804 /* WesterosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B3709171F1A4890007E5804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3709441F1A9BBD007E5804 /* lannister.jpg in Resources */,
+				5B0C525C1F2CD5E200877016 /* WikiViewController.xib in Resources */,
+				5BCBF2931F25045900B1172C /* targaryen.jpg in Resources */,
+				5B3709431F1A9BBD007E5804 /* codeIsComing.png in Resources */,
+				5BD0BB8D1F31BEF200184548 /* MembersTableViewController.xib in Resources */,
+				5B405B891F2F2219009B9199 /* HousesTableViewController.xib in Resources */,
+				5B8DD7C01F1E4AB700DE738E /* HouseViewController.xib in Resources */,
+				5B3709271F1A4890007E5804 /* LaunchScreen.storyboard in Resources */,
+				5B3709241F1A4890007E5804 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B37092B1F1A4890007E5804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B3709151F1A4890007E5804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B30B43C1F38BA0600EA58D5 /* ArrayTableViewController.swift in Sources */,
+				5BD0BB8F1F3311F000184548 /* ArrayDataSource.swift in Sources */,
+				5B30B4461F38C44700EA58D5 /* Delegates.swift in Sources */,
+				5B405B881F2F2219009B9199 /* HousesTableViewController.swift in Sources */,
+				5B3709491F1AA4A7007E5804 /* Person.swift in Sources */,
+				5B37093F1F1A9284007E5804 /* House.swift in Sources */,
+				5B37091D1F1A4890007E5804 /* AppDelegate.swift in Sources */,
+				5B69DB6D1F3B6404009FFA28 /* ArrayDelegate.swift in Sources */,
+				5B30B43F1F38BC2A00EA58D5 /* DataSource.swift in Sources */,
+				5BD0BB8C1F31BEF200184548 /* MembersTableViewController.swift in Sources */,
+				5B8DD7BF1F1E4AB700DE738E /* HouseViewController.swift in Sources */,
+				5BEAE9331F21184B006E6A5D /* UIKitExtensions.swift in Sources */,
+				5BFED7C81F21553E0060B999 /* Repository.swift in Sources */,
+				5B0C525B1F2CD5E200877016 /* WikiViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3709291F1A4890007E5804 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B37093D1F1A8FB8007E5804 /* HouseTests.swift in Sources */,
+				5B3709471F1AA0B7007E5804 /* PersonTest.swift in Sources */,
+				5B30B43A1F33187400EA58D5 /* ArrayDataSourceTest.swift in Sources */,
+				5BFED7C61F2152E20060B999 /* RepositoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B37092F1F1A4890007E5804 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B3709181F1A4890007E5804 /* Westeros */;
+			targetProxy = 5B37092E1F1A4890007E5804 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B3709251F1A4890007E5804 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B3709261F1A4890007E5804 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B3709341F1A4890007E5804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B3709351F1A4890007E5804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B3709371F1A4890007E5804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Westeros/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RodrigoLimpaisCossio.Westeros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5B3709381F1A4890007E5804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Westeros/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RodrigoLimpaisCossio.Westeros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5B37093A1F1A4890007E5804 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WesterosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RodrigoLimpaisCossio.WesterosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westeros.app/Westeros";
+			};
+			name = Debug;
+		};
+		5B37093B1F1A4890007E5804 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WesterosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RodrigoLimpaisCossio.WesterosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Westeros.app/Westeros";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B3709141F1A4890007E5804 /* Build configuration list for PBXProject "Westeros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3709341F1A4890007E5804 /* Debug */,
+				5B3709351F1A4890007E5804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B3709361F1A4890007E5804 /* Build configuration list for PBXNativeTarget "Westeros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B3709371F1A4890007E5804 /* Debug */,
+				5B3709381F1A4890007E5804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B3709391F1A4890007E5804 /* Build configuration list for PBXNativeTarget "WesterosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B37093A1F1A4890007E5804 /* Debug */,
+				5B37093B1F1A4890007E5804 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B3709111F1A4890007E5804 /* Project object */;
+}
