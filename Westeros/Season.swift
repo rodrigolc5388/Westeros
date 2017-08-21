@@ -9,15 +9,44 @@
 import UIKit
 
 //MARK: - Classes
-final class Seasson{
+
+typealias Episodes = Set<Episode>
+
+final class Season{
     
-    let seassonName  : String
-    let episodes    : Int
+    let seasonName  : String
     let releaseDate : Date
+    var _episodes: Episodes
     
-    init(name: String, episodes: Int, releaseDate: Date){
+    init(name: String, releaseDate: Date){
         
-        (self.seassonName, self.episodes, self.releaseDate) = (name, episodes, releaseDate)
+        (self.seasonName, self.releaseDate) = (name, releaseDate)
+        _episodes = Episodes()
+    }
+}
+
+extension Season{
+    var count: Int{
+        return _episodes.count
+    }
+    
+    func add(episode: Episode){
+        guard episode.season?.seasonName == seasonName else {
+            return
+        }
+        _episodes.insert(episode)
+    }
+    
+    //Variadic version
+    func add(episodes: Episode...){
+        for episode in episodes{
+            add(episode: episode)
+        }
+    }
+    
+    //Sorted [Episode]
+    func sortedEpisodes() -> [Episode]{
+        return _episodes.sorted()
     }
 }
 
@@ -25,31 +54,31 @@ final class Seasson{
 //MARK: - Protocols
 
 //MARK: - Proxy
-extension Seasson{
+extension Season{
     var proxyFor: String{
-        return seassonName.uppercased()
+        return seasonName.uppercased()
     }
 }
 
 //MARK: - CustomStringConvertible
-extension Seasson: CustomStringConvertible{
+extension Season: CustomStringConvertible{
     
     var description: String {
         
-        return "(Name: \(seassonName), Episodes: \(episodes), Release Date: \(releaseDate))"
+        return "(Name: \(seasonName), Release Date: \(releaseDate))"
     }
 }
 
 //MARK: - Equatable
-extension Seasson: Equatable{
+extension Season: Equatable{
     
-    static func ==(lhs: Seasson, rhs: Seasson) -> Bool{
+    static func ==(lhs: Season, rhs: Season) -> Bool{
         return lhs.description.uppercased() == rhs.description.uppercased()
     }
 }
 
 //MARK: - Hashable
-extension Seasson: Hashable{
+extension Season: Hashable{
     
     var hashValue: Int {
         return proxyFor.hashValue
@@ -57,12 +86,12 @@ extension Seasson: Hashable{
 }
 
 //MARK: - Comparable
-extension Seasson: Comparable{
-    static func <(lhs: Seasson, rhs: Seasson) -> Bool{
+extension Season: Comparable{
+    static func <(lhs: Season, rhs: Season) -> Bool{
         return lhs.proxyFor < rhs.proxyFor
     }
     
-    static func <=(lhs: Seasson, rhs: Seasson) -> Bool{
+    static func <=(lhs: Season, rhs: Season) -> Bool{
         return lhs.proxyFor <= rhs.proxyFor
     }
 }

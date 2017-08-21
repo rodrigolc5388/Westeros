@@ -13,10 +13,10 @@ final class Episode{
     
     let title: String
     let emissionDate: Date
-    weak var seasson: Seasson?
+    weak var season: Season?
     
-    init(title: String, emissionDate: Date, seasson: Seasson){
-        (self.title, self.emissionDate, self.seasson) = (title, emissionDate, seasson)
+    init(title: String, emissionDate: Date, season: Season){
+        (self.title, self.emissionDate, self.season) = (title, emissionDate, season)
     }
 }
 
@@ -36,7 +36,7 @@ extension Episode: CustomStringConvertible{
     
     var description: String {
         
-        return "(Name: \(title), Season: \(seasson), Release Date: \(emissionDate))"
+        return "(Name: \(title), Release Date: \(emissionDate))"
     }
 }
 
