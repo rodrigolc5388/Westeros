@@ -22,6 +22,7 @@ protocol HouseFactory{
     func houses(filteredBy: Filter) -> [House]
 }
 
+
 final class LocalFactory: HouseFactory{
     
     func houses(filteredBy: (House) -> Bool) -> [House] {
@@ -79,6 +80,7 @@ final class LocalFactory: HouseFactory{
     }
     
 }
+
 
 
 

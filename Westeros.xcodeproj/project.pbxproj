@@ -27,6 +27,7 @@
 		5B45D0851F4B2021002BEF57 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B45D0841F4B2021002BEF57 /* DateExtensions.swift */; };
 		5B45D0871F4B32B7002BEF57 /* EpisodeTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B45D0861F4B32B7002BEF57 /* EpisodeTest.swift */; };
 		5B52690A1F43648400064F03 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5269091F43648400064F03 /* Season.swift */; };
+		5B5AF05A1F4C8304007CF96F /* SeasonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5AF0591F4C8304007CF96F /* SeasonFactory.swift */; };
 		5B69DB6D1F3B6404009FFA28 /* ArrayDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B69DB6C1F3B6404009FFA28 /* ArrayDelegate.swift */; };
 		5B8DD7BF1F1E4AB700DE738E /* HouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DD7BD1F1E4AB700DE738E /* HouseViewController.swift */; };
 		5B8DD7C01F1E4AB700DE738E /* HouseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B8DD7BE1F1E4AB700DE738E /* HouseViewController.xib */; };
@@ -76,6 +77,7 @@
 		5B45D0841F4B2021002BEF57 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 		5B45D0861F4B32B7002BEF57 /* EpisodeTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeTest.swift; sourceTree = "<group>"; };
 		5B5269091F43648400064F03 /* Season.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		5B5AF0591F4C8304007CF96F /* SeasonFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeasonFactory.swift; sourceTree = "<group>"; };
 		5B69DB6C1F3B6404009FFA28 /* ArrayDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDelegate.swift; sourceTree = "<group>"; };
 		5B8DD7BD1F1E4AB700DE738E /* HouseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseViewController.swift; sourceTree = "<group>"; };
 		5B8DD7BE1F1E4AB700DE738E /* HouseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HouseViewController.xib; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				5BFED7C71F21553E0060B999 /* Repository.swift */,
 				5B5269091F43648400064F03 /* Season.swift */,
 				5BDE75491F4367D400B09B8D /* Episode.swift */,
+				5B5AF0591F4C8304007CF96F /* SeasonFactory.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				5B30B43C1F38BA0600EA58D5 /* ArrayTableViewController.swift in Sources */,
 				5B45D0851F4B2021002BEF57 /* DateExtensions.swift in Sources */,
 				5BDE754A1F4367D400B09B8D /* Episode.swift in Sources */,
+				5B5AF05A1F4C8304007CF96F /* SeasonFactory.swift in Sources */,
 				5BD0BB8F1F3311F000184548 /* ArrayDataSource.swift in Sources */,
 				5B30B4461F38C44700EA58D5 /* Delegates.swift in Sources */,
 				5B405B881F2F2219009B9199 /* HousesTableViewController.swift in Sources */,
