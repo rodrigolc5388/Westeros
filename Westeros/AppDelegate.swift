@@ -25,6 +25,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Creo unos modelos
         let houses = Repository.local.houses
         
+        //Prueba de Seasons
+        let seasons = Repository.local.seasons
+        let dataSourceSeasons = DataSources.seasonDataSource(model: seasons)
+        let seasonsDelegate = 
+        
         
         
         // Creo los controladores

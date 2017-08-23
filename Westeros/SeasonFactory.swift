@@ -27,13 +27,13 @@ extension LocalFactory: SeasonFactory{
     var seasons: [Season]{
         get{
             
-            let season1 = Season(name: "Season 1", releaseDate: Date.dateFromString(date: "2011/04/17")!)
-            let season2 = Season(name: "Season 2", releaseDate: Date.dateFromString(date: "2012/04/01")!)
-            let season3 = Season(name: "Season 3", releaseDate: Date.dateFromString(date: "2013/03/31")!)
-            let season4 = Season(name: "Season 4", releaseDate: Date.dateFromString(date: "2014/04/06")!)
-            let season5 = Season(name: "Season 5", releaseDate: Date.dateFromString(date: "2015/04/12")!)
-            let season6 = Season(name: "Season 6", releaseDate: Date.dateFromString(date: "2016/04/24")!)
-            let season7 = Season(name: "Season 7", releaseDate: Date.dateFromString(date: "2017/07/16")!)
+            let season1 = Season(name: "Season 1", releaseDate: Date.dateFromString(date: "2011/04/17")!, image: #imageLiteral(resourceName: "season1.jpg"))
+            let season2 = Season(name: "Season 2", releaseDate: Date.dateFromString(date: "2012/04/01")!, image: #imageLiteral(resourceName: "season2.jpg"))
+            let season3 = Season(name: "Season 3", releaseDate: Date.dateFromString(date: "2013/03/31")!, image: #imageLiteral(resourceName: "season3.jpg"))
+            let season4 = Season(name: "Season 4", releaseDate: Date.dateFromString(date: "2014/04/06")!, image: #imageLiteral(resourceName: "season4.jpg"))
+            let season5 = Season(name: "Season 5", releaseDate: Date.dateFromString(date: "2015/04/12")!, image: #imageLiteral(resourceName: "season5.jpg"))
+            let season6 = Season(name: "Season 6", releaseDate: Date.dateFromString(date: "2016/04/24")!, image: #imageLiteral(resourceName: "season6.jpg"))
+            let season7 = Season(name: "Season 7", releaseDate: Date.dateFromString(date: "2017/07/16")!, image: #imageLiteral(resourceName: "season7.jpg"))
             
             season1.add(episodes:
             Episode(title: "Winter is coming", emissionDate: Date.dateFromString(date: "2011/04/17")!, season: season1),

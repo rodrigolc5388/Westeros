@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class DataSources{
+final class {
     
     static func houseDataSource(model: [House]) -> ArrayDataSource<House>{
         
@@ -41,4 +41,21 @@ final class DataSources{
             return cell!
         })
     }
+    
+    static func seasonDataSource(model: [Season]) -> ArrayDataSource<Season>{
+        
+        return ArrayDataSource(model: model, cellMaker: { (season: Season, tableView: UITableView) -> UITableViewCell in
+            
+            let cellID = "Season"
+            var cell = tableView.dequeueReusableCell(withIdentifier: cellID)
+            if cell == nil{
+                cell = UITableViewCell(style: .subtitle, reuseIdentifier: cellID)
+            }
+            
+            cell?.textLabel?.text = season.seasonName
+            cell?.detailTextLabel?.text = "\(season.count) episodes"
+            return cell!
+        })
+    }
+
 }

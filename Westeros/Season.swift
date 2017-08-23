@@ -16,11 +16,12 @@ final class Season{
     
     let seasonName  : String
     let releaseDate : Date
+    let image: UIImage
     var _episodes: Episodes
     
-    init(name: String, releaseDate: Date){
+    init(name: String, releaseDate: Date, image: UIImage){
         
-        (self.seasonName, self.releaseDate) = (name, releaseDate)
+        (self.seasonName, self.releaseDate, self.image) = (name, releaseDate, image)
         _episodes = Episodes()
     }
 }
