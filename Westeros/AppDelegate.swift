@@ -27,8 +27,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //Prueba de Seasons
         let seasons = Repository.local.seasons
-        let dataSourceSeasons = DataSources.seasonDataSource(model: seasons)
-        let seasonsDelegate = 
+        let seasonsDataSource = DataSources.seasonDataSource(model: seasons)
+        let seasonsDelegate = Delegates.seasonsDelegate(model: seasons)
+        let seasonsVC = ArrayTableViewController(dataSource: seasonsDataSource,
+                                                       title: "Seasons",
+                                                       style: .plain,
+                                                       delegate: seasonsDelegate).wrappedInNavigation()
         
         
         
@@ -41,7 +45,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                                 delegate: housesDelegate).wrappedInNavigation()
         
         // Asignar el RootVC
-        window?.rootViewController = housesVC
+        window?.rootViewController = seasonsVC
         
         return true
     }

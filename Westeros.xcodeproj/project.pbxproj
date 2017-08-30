@@ -46,6 +46,8 @@
 		5BE63F431F4DDE6A0054332F /* season5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BE63F3C1F4DDE6A0054332F /* season5.jpg */; };
 		5BE63F441F4DDE6A0054332F /* season6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BE63F3D1F4DDE6A0054332F /* season6.jpg */; };
 		5BE63F451F4DDE6A0054332F /* season7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BE63F3E1F4DDE6A0054332F /* season7.jpg */; };
+		5BE63F4C1F5725260054332F /* EpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE63F4A1F5725260054332F /* EpisodeViewController.swift */; };
+		5BE63F4D1F5725260054332F /* EpisodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BE63F4B1F5725260054332F /* EpisodeViewController.xib */; };
 		5BEAE9331F21184B006E6A5D /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEAE9321F21184B006E6A5D /* UIKitExtensions.swift */; };
 		5BFED7C61F2152E20060B999 /* RepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFED7C51F2152E20060B999 /* RepositoryTests.swift */; };
 		5BFED7C81F21553E0060B999 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BFED7C71F21553E0060B999 /* Repository.swift */; };
@@ -105,6 +107,8 @@
 		5BE63F3C1F4DDE6A0054332F /* season5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = season5.jpg; sourceTree = "<group>"; };
 		5BE63F3D1F4DDE6A0054332F /* season6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = season6.jpg; sourceTree = "<group>"; };
 		5BE63F3E1F4DDE6A0054332F /* season7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = season7.jpg; sourceTree = "<group>"; };
+		5BE63F4A1F5725260054332F /* EpisodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeViewController.swift; sourceTree = "<group>"; };
+		5BE63F4B1F5725260054332F /* EpisodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EpisodeViewController.xib; sourceTree = "<group>"; };
 		5BEAE9321F21184B006E6A5D /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
 		5BFED7C51F2152E20060B999 /* RepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryTests.swift; sourceTree = "<group>"; };
 		5BFED7C71F21553E0060B999 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
@@ -247,6 +251,8 @@
 				5BD0BB8B1F31BEF200184548 /* MembersTableViewController.xib */,
 				5B31C9C71F4DDA9300A85BED /* SeasonViewController.swift */,
 				5B31C9C81F4DDA9300A85BED /* SeasonViewController.xib */,
+				5BE63F4A1F5725260054332F /* EpisodeViewController.swift */,
+				5BE63F4B1F5725260054332F /* EpisodeViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -354,6 +360,7 @@
 				5B3709431F1A9BBD007E5804 /* codeIsComing.png in Resources */,
 				5BE63F401F4DDE6A0054332F /* season2.jpg in Resources */,
 				5BE63F441F4DDE6A0054332F /* season6.jpg in Resources */,
+				5BE63F4D1F5725260054332F /* EpisodeViewController.xib in Resources */,
 				5BD0BB8D1F31BEF200184548 /* MembersTableViewController.xib in Resources */,
 				5B405B891F2F2219009B9199 /* HousesTableViewController.xib in Resources */,
 				5BE63F451F4DDE6A0054332F /* season7.jpg in Resources */,
@@ -392,6 +399,7 @@
 				5B31C9C91F4DDA9300A85BED /* SeasonViewController.swift in Sources */,
 				5B69DB6D1F3B6404009FFA28 /* ArrayDelegate.swift in Sources */,
 				5B30B43F1F38BC2A00EA58D5 /* DataSource.swift in Sources */,
+				5BE63F4C1F5725260054332F /* EpisodeViewController.swift in Sources */,
 				5BD0BB8C1F31BEF200184548 /* MembersTableViewController.swift in Sources */,
 				5B8DD7BF1F1E4AB700DE738E /* HouseViewController.swift in Sources */,
 				5BEAE9331F21184B006E6A5D /* UIKitExtensions.swift in Sources */,
