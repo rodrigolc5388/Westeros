@@ -20,6 +20,13 @@ final class Episode{
     }
 }
 
+/*extension Episode{
+    
+    var title: String{
+        return "Title: \(title)"
+    }
+}*/
+
 
 
 //MARK: - Protocols

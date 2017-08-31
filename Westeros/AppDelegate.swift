@@ -24,9 +24,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Creo unos modelos
         let houses = Repository.local.houses
-        
-        //Prueba de Seasons
         let seasons = Repository.local.seasons
+        
+        //Seasons
         let seasonsDataSource = DataSources.seasonDataSource(model: seasons)
         let seasonsDelegate = Delegates.seasonsDelegate(model: seasons)
         let seasonsVC = ArrayTableViewController(dataSource: seasonsDataSource,
@@ -34,9 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                                        style: .plain,
                                                        delegate: seasonsDelegate).wrappedInNavigation()
         
-        
-        
-        // Creo los controladores
+        // Houses
         let dataSource = DataSources.houseDataSource(model: houses)
         let housesDelegate = Delegates.housesDelegate(model: houses)
         let housesVC = ArrayTableViewController(dataSource: dataSource,
@@ -44,8 +42,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                                                 style: .plain,
                                                 delegate: housesDelegate).wrappedInNavigation()
         
+        let tabVC = UITabBarController()
+        tabVC.setViewControllers([seasonsVC, housesVC], animated: true)
+        
         // Asignar el RootVC
-        window?.rootViewController = seasonsVC
+        window?.rootViewController = tabVC
         
         return true
     }

@@ -42,13 +42,8 @@ class SeasonViewController: UIViewController {
     
     @objc func displayEpisodes(){
         
-        let episodesDataSource = DataSources.episodesDataSource(model: model._episodes.sorted())
-        let episodesDelegate = Delegates.episodesDelegate(model: model._episodes.sorted())
-        let episodesVC = ArrayTableViewController(dataSource: episodesDataSource,
-                                                  title: "\(model.seasonName) episodes",
-                                                  style: .plain,
-                                                  delegate: episodesDelegate).wrappedInNavigation()
-        navigationController?.pushViewController(episodesVC, animated: true)
+        let episodesViewC = EpisodesTableViewController(model: model._episodes.sorted())
+        navigationController?.pushViewController(episodesViewC, animated: true)
     }
     
     func syncViewWithModel(){

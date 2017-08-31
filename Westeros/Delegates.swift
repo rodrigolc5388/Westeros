@@ -33,7 +33,7 @@ final class Delegates{
         
         return ArrayDelegate(model: model, selectRow: { (episode: Episode, tableView: UITableView, controller: UITableViewController?) -> Void in
             
-            let episodeVC = EpisodeViewController(model: episode)
+            let episodeVC = EpisodesTableViewController(model: [episode])
             controller?.navigationController?.pushViewController(episodeVC, animated: true)
         })
     }
