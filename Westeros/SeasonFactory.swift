@@ -36,32 +36,32 @@ extension LocalFactory: SeasonFactory{
             let season7 = Season(name: "Season 7", releaseDate: Date.dateFromString(date: "2017/07/16")!, image: #imageLiteral(resourceName: "season7.jpg"))
             
             season1.add(episodes:
-            Episode(title: "Winter is coming", emissionDate: Date.dateFromString(date: "2011/04/17")!, season: season1),
-            Episode(title: "The Kingsroad", emissionDate: Date.dateFromString(date: "2011/04/24")!, season: season1))
+            Episode(title: "1. Winter is coming", emissionDate: Date.dateFromString(date: "2011/04/17")!, season: season1),
+            Episode(title: "2. The Kingsroad", emissionDate: Date.dateFromString(date: "2011/04/24")!, season: season1))
         
             season2.add(episodes:
-            Episode(title: "The North Remembers", emissionDate: Date.dateFromString(date: "2012/04/01")!, season: season2),
-            Episode(title: "The Night Lands", emissionDate: Date.dateFromString(date: "2012/04/08")!, season: season2))
+            Episode(title: "1. The North Remembers", emissionDate: Date.dateFromString(date: "2012/04/01")!, season: season2),
+            Episode(title: "2. The Night Lands", emissionDate: Date.dateFromString(date: "2012/04/08")!, season: season2))
             
             season3.add(episodes:
-            Episode(title: "Valar Dohaeris", emissionDate: Date.dateFromString(date: "2013/03/31")!, season: season3),
-            Episode(title: "Dark Wings, Dark Words", emissionDate: Date.dateFromString(date: "2013/04/07")!, season: season3))
+            Episode(title: "1. Valar Dohaeris", emissionDate: Date.dateFromString(date: "2013/03/31")!, season: season3),
+            Episode(title: "2. Dark Wings, Dark Words", emissionDate: Date.dateFromString(date: "2013/04/07")!, season: season3))
             
             season4.add(episodes:
-            Episode(title: "Two Swords", emissionDate: Date.dateFromString(date: "2014/04/06")!, season: season4),
-            Episode(title: "The Lion and the Rose", emissionDate: Date.dateFromString(date: "2014/04/13")!, season: season4))
+            Episode(title: "1. Two Swords", emissionDate: Date.dateFromString(date: "2014/04/06")!, season: season4),
+            Episode(title: "2. The Lion and the Rose", emissionDate: Date.dateFromString(date: "2014/04/13")!, season: season4))
             
             season5.add(episodes:
-            Episode(title: "The Wars to Come", emissionDate: Date.dateFromString(date: "2015/04/12")!, season: season5),
-            Episode(title: "The House of Black and White", emissionDate: Date.dateFromString(date: "2015/04/19")!, season: season5))
+            Episode(title: "1. The Wars to Come", emissionDate: Date.dateFromString(date: "2015/04/12")!, season: season5),
+            Episode(title: "2. The House of Black and White", emissionDate: Date.dateFromString(date: "2015/04/19")!, season: season5))
             
             season6.add(episodes:
-            Episode(title: "The Red Woman", emissionDate: Date.dateFromString(date: "2016/04/24")!, season: season6),
-            Episode(title: "Home", emissionDate: Date.dateFromString(date: "2016/05/01")!, season: season6))
+            Episode(title: "1. The Red Woman", emissionDate: Date.dateFromString(date: "2016/04/24")!, season: season6),
+            Episode(title: "2. Home", emissionDate: Date.dateFromString(date: "2016/05/01")!, season: season6))
             
             season7.add(episodes:
-            Episode(title: "Dragonstone", emissionDate: Date.dateFromString(date: "2017/07/16")!, season: season7),
-            Episode(title: "Stormborn", emissionDate: Date.dateFromString(date: "2017/07/23")!, season: season7))
+            Episode(title: "1. Dragonstone", emissionDate: Date.dateFromString(date: "2017/07/16")!, season: season7),
+            Episode(title: "2. Stormborn", emissionDate: Date.dateFromString(date: "2017/07/23")!, season: season7))
             
             
             

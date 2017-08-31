@@ -10,7 +10,6 @@ import UIKit
 
 class SeasonViewController: UIViewController {
 
-    @IBOutlet weak var seasonNameView: UILabel!
     @IBOutlet weak var seasonDateView: UILabel!
     @IBOutlet weak var seasonImageView: UIImageView!
     
@@ -47,8 +46,7 @@ class SeasonViewController: UIViewController {
     }
     
     func syncViewWithModel(){
-        seasonNameView.text = model.seasonName
-        seasonDateView.text = model.releaseDate.dateToString()
+        seasonDateView.text = "Release date: \(model.releaseDate.dateToString())"
         seasonImageView.image = model.image
     }
     
